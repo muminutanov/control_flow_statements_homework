@@ -7,9 +7,9 @@ def main(a):
         a: a increased by 1 if positive, else unchanged.
     """
     a=5
-    if a>0:
+    f=if a>0:
         print(a+1)
-    if a<0:
+    g=if a<0:
         print(a)
-    return(a)
+    return(f or g )
 
