@@ -10,10 +10,10 @@ def main(a,b,c):
     """
     x=0
     if a<0:
-        x-=1
+        x+=1
     if b<0:
-        x-=1
+        x+=1
     if c<0:
-        x-=1
+        x+=1
     return x
 print(main(-5,-3,-8))
